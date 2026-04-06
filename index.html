@@ -1,13 +1,89 @@
-<html>
-<head>
-<title>Projet PPE</title>
-</head>
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Projet PPE - IPNET</title>
 
-<body>
+        <!-- Polices Google modernes (Syne pour les titres, Inter pour le texte) -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Syne:wght@700;800&display=swap"
+            rel="stylesheet"
+        />
 
-<h1>Projet PPE - IPNET</h1>
+        <!-- Fichier CSS externe -->
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- Curseur -->
+        <div class="cursor"></div>
 
-<p>Site web du groupe.</p>
+        <!-- Navigation -->
+        <nav>
+            <div class="logo hover-target">IPNET.</div>
+            <div class="nav-link hover-target">PROJET PPE</div>
+        </nav>
 
-</body>
+        <!-- Contenu Principal -->
+        <main>
+            <!-- Section Hero -->
+            <section class="hero">
+                <h1 class="reveal">
+                    <span class="reveal-item outline-text hover-target"
+                        >PROJET</span
+                    >
+                    <span
+                        class="reveal-item filled-text hover-target"
+                        style="transition-delay: 0.1s"
+                        >PPE</span
+                    >
+                </h1>
+                <p class="fade-in">
+                    Bienvenue sur le site vitrine de notre groupe. Hébergé sur
+                    Vercel avec gestion de sous-domaines, ce projet illustre nos
+                    compétences en déploiement web.
+                </p>
+
+                <div class="marquee-container">
+                    <div class="marquee">
+                        HEBERGEMENT VERCEL • SOUS DOMAINE • IPNET MASTER 1 •
+                        PROJET PPE • HEBERGEMENT VERCEL • SOUS DOMAINE • IPNET
+                        MASTER 1 • PROJET PPE •
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section À Propos -->
+            <section class="about">
+                <h2 class="reveal">
+                    <span class="reveal-item outline-text hover-target"
+                        >NOTRE</span
+                    ><br />
+                    <span
+                        class="reveal-item filled-text hover-target"
+                        style="transition-delay: 0.1s"
+                        >VISION</span
+                    >
+                </h2>
+                <div class="about-grid">
+                    <p class="fade-in">
+                        L'objectif de ce projet est de configurer de A à Z une
+                        infrastructure web en associant un domaine personnalisé
+                        à un service cloud moderne.
+                    </p>
+                    <p class="fade-in" style="transition-delay: 0.5s">
+                        Le design a été repensé pour offrir une expérience
+                        immersive, inspirée des sites Awwwards, avec une
+                        typographie percutante, des animations fluides et une
+                        interface sombre élégante.
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <!-- Fichier JS externe -->
+        <script src="script.js"></script>
+    </body>
 </html>
